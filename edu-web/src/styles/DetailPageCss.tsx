@@ -1,0 +1,46 @@
+const styles = {
+  divParent: {
+    position: "fixed",
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: 0,
+    transition: "all 0.4s linear",
+    zIndex: 0,
+    visibility: "visible",
+    opacity: 1,
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    overflowY: "auto",
+    backgroundColor: "rgba(0,0,0, 0.4)",
+  },
+  divSquare: {
+    backgroundColor: "white",
+    width: "80%",
+    maxHeight: "80%",
+    padding: "1rem",
+    borderRadius: "12px",
+    display: "flex",
+    flexDirection: "column",
+    gap: "1rem",
+    overflowY: "auto",
+  },
+  divTextField: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "start",
+    gap: "1rem",
+    overflowY: "auto",
+    paddingTop: "1rem",
+  },
+
+  divButtons: {
+    cursor: "pointer",
+    width: "100%",
+    display: "flex",
+    justifyContent: "end",
+    gap: "1.5rem",
+  },
+} as const;
+export default styles;
